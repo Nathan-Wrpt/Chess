@@ -133,9 +133,6 @@ Here is a table saying if different features are implemented or not :
 | Draw if no piece has been captured in 100 moves | ✅ |
 | Draw if the same position has been repeated 3 times | ❌️ |
 
-Why 100 moves and not 50 ? It's because one of the tests wouldn't pass if set to 50.
-It can easily be changed in the Game.cpp replacing 100 by 50 though.
-
 ## ♟️ En passant explanation
 
 As i did not create auxiliary functions for the en passant process, i will break it down here (everything about this is handled in the movepiece function)
@@ -146,7 +143,5 @@ Simple as that.
 I had to add a verification in the movepiece function to check if the move is an en passant capture, and if it is, remove the pawn that is being captured.
 
 # Thanks a lot for playing and reading !
-
-(All the tests provided passed successfully)
 
 
