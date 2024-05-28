@@ -1,6 +1,6 @@
 # Mini-Project : Chess Game in C++ ♚
 
-Made by ** Nathan W **
+Made by **Nathan W**
 
 ## Project Presentation
 
